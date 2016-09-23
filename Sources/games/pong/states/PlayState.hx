@@ -1,4 +1,4 @@
-package pong.states;
+package games.pong.states;
 
 import pong.entities.Ball;
 import pong.entities.Paddle;
@@ -71,8 +71,6 @@ class PlayState extends State {
 
 	override public function update() : Void {
 		super.update();
-
-		trace(mouse.dy);
 
 		this.paddleL.move(mouse.y, mouse.dy);
 		this.paddleR.move(mouse.y, mouse.dy);

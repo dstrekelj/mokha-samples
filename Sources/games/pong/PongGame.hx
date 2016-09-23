@@ -1,6 +1,6 @@
-package pong;
+package games.pong;
 
-import pong.states.PlayState;
+import games.pong.states.PlayState;
 
 import mokha.Game;
 import mokha.Mokha;

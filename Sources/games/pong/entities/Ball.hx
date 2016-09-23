@@ -1,4 +1,4 @@
-package pong.entities;
+package games.pong.entities;
 
 import pong.entities.Paddle;
 
