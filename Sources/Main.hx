@@ -1,11 +1,9 @@
 package;
 
-import kha.System;
+import mokha.Engine;
 
 class Main {
-	public static function main() {
-		System.init({title: "Project", width: 1024, height: 768}, function () {
-			new Project();
-		});
+	static function main() {
+		Engine.init(pong.PongGame, "Pong", 640, 480, 1 / 60);
 	}
 }
