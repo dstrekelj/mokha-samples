@@ -4,6 +4,6 @@ import mokha.Engine;
 
 class Main {
 	static function main() {
-		Engine.init(games.pong.PongGame, "Pong", 640, 480, 1 / 60);
+		Engine.init(features.camera.CameraGame, "Pong", 640, 480, 1 / 60);
 	}
 }
